@@ -61,7 +61,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
+ "https://lh3.googleusercontent.com/p/AF1QipNBfSbPHAs4waHAvgG3K-v75Pc97VMTZbWchXyP=s1348-w766-h1348-rw",
  "https://i.imgur.com/WXQIgMz.jpeg",
  "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
  "https://i.imgur.com/WXQIgMz.jpeg",
@@ -157,11 +157,11 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.imgur.com/WXQIgMz.jpeg",
+ "https://lh3.googleusercontent.com/p/AF1QipNBfSbPHAs4waHAvgG3K-v75Pc97VMTZbWchXyP=s1348-w766-h1348-rw",
+ "https://lh3.googleusercontent.com/p/AF1QipNKgNobgkZcRjjH3k3pTaUgBnlaWCv2SYil4obg=s1348-w766-h1348-rw",
+ "https://lh3.googleusercontent.com/p/AF1QipPwdQ-ZKsjq3VYuUT4MK73QVw8hx9GMyiZ-bZFg=s1348-w766-h1348-rw",
+ "https://lh3.googleusercontent.com/p/AF1QipP5f4-bG6eZPYMqZMPaQGIRgCFXSyzmymjq1A83=s1348-w766-h1348-rw",
+ "https://www.bangla-kobita.com/images/up/1/pp37142-AUX.jpg",
 
  ]; 
  var i = 1;
@@ -183,16 +183,26 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  }
  var callback = () => 
  api.sendMessage({ body: 
- `🍀----আসসালামু আলাইকুম----🍀
-
-┏━━•❅•••❈•••❈•••❅•━━┓\n\n「 ${namebot} 」\n\n┗━━•❅•••❈•••❈•••❅•━━┛ \n\n______________________________\n\n↓↓_𝗥𝗢𝗕𝗢𝗧 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢_↓↓\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝘀𝘆𝘀𝘁𝗲𝗺: ${PREFIX}\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝗯𝗼𝘅: ${prefix}\n\n» 𝗧𝗼𝘁𝗮𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀: ${commands.size}\n\n» 𝗣𝗶𝗻𝗴: ${Date.now() - dateNow}ms\n______________________________\n\n ↓↓_𝗥𝗢𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢_↓↓\n\n 
-𝗡𝗔𝗠𝗘 :>ULLASH
-
-𝗢𝘄𝗻𝗲𝗿 𝗜𝗱 𝗹𝗶𝗻𝗸:☞https://www.facebook.com/profile.php?id=100086680386976
-
-𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽☞01631813286
-
-______________________________\n\n----↓↓𝙍𝙤𝙗𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙚 𝙩𝙞𝙢𝙚↓↓----\n\n ${hours} : ${minutes} : ${seconds} second(s)\n\n______________________________\n» 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦: ${global.data.allUserID.length} \n\n» 𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣: ${global.data.allThreadID.length}\n______________________________\n\n thanks for using \n 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 
+ ` 
+┏━━━━━━━━━━━━━━━━━━━━━┓
+┃				🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
+┣━━━━━━━━━━━━━━━━━━━━━┫
+┃ 👤 𝐍𝐚𝐦𝐞	: 𝐂𝐡𝐢𝐭𝐫𝐨𝐧 𝐁𝐡𝐚𝐭𝐭𝐚𝐜𝐡𝐚𝐫𝐣𝐞𝐞
+┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫	: 𝐌𝐚𝐥𝐞
+┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧	: 𝐂𝐨𝐦𝐩𝐥𝐢𝐜𝐚𝐭𝐞𝐝
+┃ 🎂 𝐀𝐠𝐞	: 𝟐𝟎
+┃ ⚠️ 𝐀𝐛𝐨𝐮𝐭	: 𝐒𝐞𝐚𝐫𝐜𝐡 𝐦𝐲 𝐧𝐚𝐦𝐞 𝐨𝐧 𝐆𝐨𝐨𝐠𝐥𝐞
+┃ 🏫 𝐄𝐝𝐮	: 𝐈𝐧𝐭𝐞𝐫 𝟏𝐬𝐭 𝐘𝐞𝐚𝐫
+┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬	: 𝐌𝐲𝐦𝐞𝐧𝐬𝐢𝐧𝐠𝐡, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
+┣━━━━━━━━━━━━━━━━━━━━━┫
+┃ 🎭 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩	: https://wa.me/+8801316655254
+┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦	: https://t.me/brandxhitron
+┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤	: https://www.facebook.com/adirexcb
+┃ 🌎 𝐖𝐞𝐛𝐬𝐢𝐭𝐞		: http://shipu.c0m.in/
+┣━━━━━━━━━━━━━━━━━━━━━┫
+┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
+┗━━━━━━━━━━━━━━━━━━━━━┛
+ \n\n----↓↓𝙍𝙤𝙗𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙚 𝙩𝙞𝙢𝙚↓↓----\n\n ${hours} : ${minutes} : ${seconds} second(s)\n\n______________________________\n» 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦: ${global.data.allUserID.length} \n\n» 𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣: ${global.data.allThreadID.length}\n______________________________\n\n thanks for using \n  𝐒𝐡𝐢𝐏𝐮 𝐀𝐢 🤖💨
 \n--------------------------------------------------\n\n☢️☣️⚠️`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
  return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/kensu.jpg")).on("close", () => callback()); 
  }
