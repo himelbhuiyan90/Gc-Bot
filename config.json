@@ -5,23 +5,14 @@
     "autoCreateDB": true,
     "notiGroup": true,
     "NOTIFICATION": true,
-    "allowInbox": false,
+    "allowInbox": true,
     "autoClean": true,
     "commandDisabled": [
         "sim.js"
     ],
     "eventDisabled": [
-        "join.js"
-    ],
-    "EMAIL": "",
-    "PASSWORD": "",
-    "OTPKEY": "",
-    "BOTNAME": "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️",
-    "PREFIX": "/",
-    "ADMINBOT": [
-        "100000478146113",
-        "61576520552554",
-        "61550035211214"
+        "",
+        ""
     ],
     "NDH": [
         "100000478146113"
