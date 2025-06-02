@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "self",
+	name: "gcadmin",
 	version: "1.0.5",
 	hasPermssion: 0, 
 	credits: "Mirai Team",
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  }
  
  case "god": {
- const god = ["100000478146113"];
+ const god = ["100081330372098"];
  if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
  
 
