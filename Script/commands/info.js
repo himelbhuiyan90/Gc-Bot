@@ -196,7 +196,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 ┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬	: 𝐌𝐲𝐦𝐞𝐧𝐬𝐢𝐧𝐠𝐡, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🎭 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩	: https://wa.me/+8801316655254
-┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦	: https://t.me/brandxhitron
+┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦	: https://t.me/brandchitron
 ┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤	: https://www.facebook.com/adirexcb
 ┃ 🌎 𝐖𝐞𝐛𝐬𝐢𝐭𝐞		: http://shipu.c0m.in/
 ┣━━━━━━━━━━━━━━━━━━━━━┫
