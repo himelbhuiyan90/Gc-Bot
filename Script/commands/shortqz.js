@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "quizenglish",
+	name: "shortqz",
 	version: "1.0.0",
 	credits: "Mirai Team",
 	hasPermssion: 0,
