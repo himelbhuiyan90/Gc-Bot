@@ -11,7 +11,16 @@
         "sim.js"
     ],
     "eventDisabled": [
-        "",
+        ""
+    ],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "𝐒𝐡𝐢𝐏𝐮 𝐀𝐢 🤖💨",
+    "PREFIX": "+",
+    "ADMINBOT": [
+        "100081330372098",
+        "100077380038521",
         ""
     ],
     "NDH": [
