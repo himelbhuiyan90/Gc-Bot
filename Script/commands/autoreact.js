@@ -1,5 +1,121 @@
 module.exports.config = {
   name: "autoreact",
+  version: "2.1.0",
+  hasPermission: 0,
+  credits: "𝐒𝐡𝐢𝐏𝐮 𝐀𝐢 🤖💨",
+  description: "Advanced Auto-Reaction Bot with Emoji Mirroring",
+  commandCategory: "No Prefix",
+  usages: '[]',
+  cooldowns: 0,
+};
+
+module.exports.handleEvent = function({ api, event }) {
+  const { threadID, messageID, body } = event;
+  const message = body.toLowerCase();
+
+  // Detect and mirror single emoji messages
+  const isSingleEmoji = /^(\p{Emoji}|\uFE0F)+$/u.test(body.trim());
+  if (isSingleEmoji) {
+    return api.setMessageReaction(body.trim(), messageID, () => {}, true);
+  }
+
+  // Country Flags
+  const countryFlags = {
+    "bangladesh": "🇧🇩", "bd": "🇧🇩", "bangla": "🇧🇩",
+    "india": "🇮🇳", "ind": "🇮🇳", "bharat": "🇮🇳",
+    "usa": "🇺🇸", "america": "🇺🇸", "us": "🇺🇸",
+    "uk": "🇬🇧", "britain": "🇬🇧", "england": "🇬🇧",
+    "canada": "🇨🇦", "ca": "🇨🇦",
+    "australia": "🇦🇺", "aus": "🇦🇺",
+    "germany": "🇩🇪", "deutschland": "🇩🇪",
+    "france": "🇫🇷", "paris": "🇫🇷",
+    "japan": "🇯🇵", "nippon": "🇯🇵",
+    "korea": "🇰🇷", "south korea": "🇰🇷",
+    "china": "🇨🇳", "chinese": "🇨🇳",
+    "pakistan": "🇵🇰", "pk": "🇵🇰",
+    "russia": "🇷🇺", "rus": "🇷🇺",
+    "saudi": "🇸🇦", "arab": "🇸🇦"
+  };
+
+  // Wow Reactions (ওয়াও)
+  const wowKeywords = [
+    "wow", "awesome", "amazing", "incredible", "fantastic",
+    "অসাধারণ", "বাহ", "ওয়াও", "আশ্চর্য", "চমৎকার",
+    "😲", "🤩", "✨", "🌟", "🎉", "🔥"
+  ];
+
+  // Love Reactions
+  const loveKeywords = [
+    "love", "luv", "adorable", "amore", "heart", "crush", "kiss", "mwah", 
+    "romance", "sweet", "hug", "valentine", "couple", "bae", "boo",
+    "ভালোবাসা", "প্রেম", "মাহাল", "কিস", "চুমু", "আদর", "হাগ", 
+    "বুচি", "মায়া", "অনুরাগ", "সোহাগ", "প্রণয়",
+    "😍", "🥰", "😘", "❤️", "💕", "💘", "💖", "💗", "💓", "💞", "💝"
+  ];
+
+  // Anger Reactions
+  const angerKeywords = [
+    "angry", "mad", "furious", "rage", "hate", "annoy", "pissed", "grrr",
+    "fight", "war", "attack", "kill", "destroy", "idiot", "stupid",
+    "রাগ", "গুন্ডা", "খারাপ", "ঝগড়া", "মারামারি", "হিংসা", "ক্রোধ", 
+    "জঙ্গি", "খুন", "ঘৃণা", "বদমাশ", "পাগল",
+    "😠", "🤬", "👿", "💢", "😤", "😡", "🗯️", "⚡"
+  ];
+
+  // Funny/Fazlami
+  const funnyKeywords = [
+    "lol", "funny", "haha", "rofl", "comedy", "joke", "lmao", "lmfao",
+    "hilarious", "wtf", "omg", "fak", "shit", "boka", "pagol",
+    "হাসি", "মজা", "কৌতুক", "ঠাট্টা", "ফাজলামি", "বোকা", "পাগল", 
+    "হাব্লা", "হিজিবিজি", "অট্টহাসি", "খিলখিল",
+    "😂", "🤣", "😆", "😝", "🤪", "👻", "💩", "🍌", "🎭", "🃏"
+  ];
+
+  // Sad Reactions
+  const sadKeywords = [
+    "sad", "cry", "depress", "pain", "hurt", "alone", "lonely", "tears",
+    "breakup", "divorce", "failure", "loss", "miss", "upset",
+    "দুঃখ", "কষ্ট", "বেদনা", "অভিমান", "কান্না", "হতাশা", "ভালোবাসা হারানো", 
+    "বিরহ", "বিচ্ছেদ", "একা", "খারাপ লাগছে",
+    "😢", "😭", "🥲", "😞", "😔", "💔", "☹️", "😩", "😫"
+  ];
+
+  // Check and React
+  for (const [country, flag] of Object.entries(countryFlags)) {
+    if (message.includes(country)) {
+      return api.setMessageReaction(flag, messageID, () => {}, true);
+    }
+  }
+
+  if (wowKeywords.some(kw => message.includes(kw))) {
+    return api.setMessageReaction("😲", messageID, () => {}, true);
+  }
+
+  if (loveKeywords.some(kw => message.includes(kw))) {
+    return api.setMessageReaction("❤️", messageID, () => {}, true);
+  }
+
+  if (angerKeywords.some(kw => message.includes(kw))) {
+    return api.setMessageReaction("😠", messageID, () => {}, true);
+  }
+
+  if (funnyKeywords.some(kw => message.includes(kw))) {
+    return api.setMessageReaction("😂", messageID, () => {}, true);
+  }
+
+  if (sadKeywords.some(kw => message.includes(kw))) {
+    return api.setMessageReaction("😢", messageID, () => {}, true);
+  }
+};
+
+module.exports.run = function() {};
+
+
+
+
+
+module.exports.config = {
+  name: "autoreact1",
   version: "1.1.1",
   hasPermission: 0,
   credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
