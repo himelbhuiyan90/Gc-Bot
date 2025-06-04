@@ -1,1 +1,194 @@
-function _0x30a0(_0x3758f3,_0x265197){const _0x435816=_0xf7bd();return _0x30a0=function(_0x5e42f2,_0x5a136b){_0x5e42f2=_0x5e42f2-(-0x13e4+-0x1*0x2d7+-0x181d*-0x1);let _0x59a686=_0x435816[_0x5e42f2];return _0x59a686;},_0x30a0(_0x3758f3,_0x265197);}const _0x14970c=_0x30a0;(function(_0x50620c,_0x273f88){const _0x85cd66=_0x30a0,_0x87ea7b=_0x50620c();while(!![]){try{const _0x3dab05=-parseInt(_0x85cd66(0x174))/(0x1b42+-0x4*0x4f+-0x1a05)+-parseInt(_0x85cd66(0x194))/(-0x61c+0x157e+-0xf60)*(-parseInt(_0x85cd66(0x199))/(-0x1*-0x1675+-0x1e3d*0x1+0x7cb))+parseInt(_0x85cd66(0x165))/(0x2b5+0xd20+-0xfd1)*(-parseInt(_0x85cd66(0x17c))/(-0x1*0x28f+0x1f*-0xd+0x427*0x1))+parseInt(_0x85cd66(0x1a7))/(-0x1c1+0x1cc1+-0x8fe*0x3)*(-parseInt(_0x85cd66(0x186))/(-0xd8d+0x3c4*0x2+-0x9*-0xac))+parseInt(_0x85cd66(0x18e))/(-0x15d7+0x26f*0x10+-0x1111)*(-parseInt(_0x85cd66(0x171))/(0x17a8+0x2*-0x847+-0x711))+-parseInt(_0x85cd66(0x196))/(0x15*-0xd6+0x8*0x202+0x1c*0xe)+parseInt(_0x85cd66(0x170))/(-0xae6+-0x1*-0x649+0x4a8);if(_0x3dab05===_0x273f88)break;else _0x87ea7b['push'](_0x87ea7b['shift']());}catch(_0x3d7638){_0x87ea7b['push'](_0x87ea7b['shift']());}}}(_0xf7bd,-0x1*0x106fa+0x59821+0x900*0x65));const axios=require(_0x14970c(0x163));function _0xf7bd(){const _0x36d083=['-with-gemi','136176maPEOe','message','text_only','post','r\x20request.','\x20reply','63106lqGITM','SbwfR','7314000IIfBkr','essing\x20you','1.0','51OxwgYl','ge\x20|\x20photo','QmZxD','Sorry,\x20the','sendMessag','data','messageID','ing\x20Gemini','\x20AI:','DPjuu','laikum\x0a\x0a\x0a\x0a','re\x20was\x20an\x20','google','AWuPa','12378EgstUE','threadID','mage','axios','dtwKw','258872jJpIoZ','Error:','𖣘\x20-𝐁𝐎𝐓\x20⚠️\x20𝑻','𝑬𝑨𝑴_\x20☢️','r.com/chat','exports','minipro-3r','assist\x20you','result','Assalamu\x20A','attachment','21969684almPhJ','126NoOdwl','Error\x20call','—͟͟͞͞𝐂𝐘𝐁𝐄𝐑\x20☢️_','190527RraeCm','messageRep','LyHjV','text_and_i','ply','{pn}\x20messa','message_re','ow\x20\x20can\x20i\x20','25vDgbIw','error','join','aACuq','type','hs.onrende','dSYGM','error\x20proc','https://ge','gemeini\x20ai','1757wqtJKc','url','𖣘\x20-𝐁𝐎𝐓\x20⚠️\x0aH','lnSKN','uPpCl','QwXLr','\x20today?'];_0xf7bd=function(){return _0x36d083;};return _0xf7bd();}module[_0x14970c(0x16a)]={'config':{'name':'ai','version':_0x14970c(0x198),'credit':_0x14970c(0x173)+_0x14970c(0x167)+_0x14970c(0x168),'description':_0x14970c(0x185),'cooldowns':0x5,'hasPermssion':0x0,'commandCategory':_0x14970c(0x1a5),'usages':{'en':_0x14970c(0x179)+_0x14970c(0x19a)+_0x14970c(0x193)}},'run':async({api:_0x514d79,args:_0x57f99e,event:_0x2521fc})=>{const _0x50ad23=_0x14970c,_0x508928={'QmZxD':function(_0x442662,_0x446283){return _0x442662===_0x446283;},'uPpCl':_0x50ad23(0x17a)+_0x50ad23(0x178),'DPjuu':_0x50ad23(0x184)+_0x50ad23(0x16b)+_0x50ad23(0x181)+_0x50ad23(0x169)+_0x50ad23(0x18d)+'ni','SbwfR':_0x50ad23(0x177)+_0x50ad23(0x162),'QwXLr':function(_0x22519d,_0x14a78e){return _0x22519d||_0x14a78e;},'AWuPa':_0x50ad23(0x166),'dtwKw':_0x50ad23(0x16e)+_0x50ad23(0x1a3)+_0x50ad23(0x173)+_0x50ad23(0x188)+_0x50ad23(0x17b)+_0x50ad23(0x16c)+_0x50ad23(0x18c),'lnSKN':_0x50ad23(0x190),'LyHjV':_0x50ad23(0x172)+_0x50ad23(0x1a0)+_0x50ad23(0x1a1),'aACuq':function(_0x497c7f,_0x48ea59){return _0x497c7f+_0x48ea59;},'dSYGM':_0x50ad23(0x19c)+_0x50ad23(0x1a4)+_0x50ad23(0x183)+_0x50ad23(0x197)+_0x50ad23(0x192)},_0x19c761=_0x57f99e[_0x50ad23(0x17e)]('\x20');if(_0x508928[_0x50ad23(0x19b)](_0x2521fc[_0x50ad23(0x180)],_0x508928[_0x50ad23(0x18a)])){var _0x4d49f7=_0x2521fc[_0x50ad23(0x175)+'ly'][_0x50ad23(0x16f)+'s'][-0x1e17+0xfad*0x1+-0x267*-0x6][_0x50ad23(0x187)];try{const _0x3f9592=await axios[_0x50ad23(0x191)](_0x508928[_0x50ad23(0x1a2)],{'modelType':_0x508928[_0x50ad23(0x195)],'prompt':_0x508928[_0x50ad23(0x18b)](_0x19c761,''),'imageParts':[_0x4d49f7]}),_0x41c9cd=_0x3f9592[_0x50ad23(0x19e)][_0x50ad23(0x16d)];_0x514d79[_0x50ad23(0x19d)+'e'](_0x41c9cd,_0x2521fc[_0x50ad23(0x1a8)],_0x2521fc[_0x50ad23(0x19f)]);}catch(_0x122064){console[_0x50ad23(0x17d)](_0x508928[_0x50ad23(0x1a6)],_0x122064[_0x50ad23(0x18f)]),_0x514d79[_0x50ad23(0x19d)+'e'](_0x122064,_0x2521fc[_0x50ad23(0x1a8)],_0x2521fc[_0x50ad23(0x19f)]);}}else{if(!_0x19c761)return _0x514d79[_0x50ad23(0x19d)+'e'](_0x508928[_0x50ad23(0x164)],_0x2521fc[_0x50ad23(0x1a8)],_0x2521fc[_0x50ad23(0x19f)]);else try{const _0xff40a3=await axios[_0x50ad23(0x191)](_0x508928[_0x50ad23(0x1a2)],{'modelType':_0x508928[_0x50ad23(0x189)],'prompt':_0x19c761}),_0x34bc2a=_0xff40a3[_0x50ad23(0x19e)][_0x50ad23(0x16d)];_0x514d79[_0x50ad23(0x19d)+'e'](_0x34bc2a,_0x2521fc[_0x50ad23(0x1a8)],_0x2521fc[_0x50ad23(0x19f)]);}catch(_0x5e0d59){console[_0x50ad23(0x17d)](_0x508928[_0x50ad23(0x176)],_0x5e0d59),_0x514d79[_0x50ad23(0x19d)+'e'](_0x508928[_0x50ad23(0x17f)](_0x508928[_0x50ad23(0x182)],_0x5e0d59),_0x2521fc[_0x50ad23(0x1a8)],_0x2521fc[_0x50ad23(0x19f)]);}}}};
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+
+// Database setup
+const DB_PATH = path.join(__dirname, 'shipu_users.json');
+
+// Encryption setup
+const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY || 'default-encryption-key';
+const IV_LENGTH = 16;
+
+function encrypt(text) {
+  const iv = crypto.randomBytes(IV_LENGTH);
+  const cipher = crypto.createCipheriv('aes-256-cbc', Buffer.from(ENCRYPTION_KEY), iv);
+  let encrypted = cipher.update(text);
+  encrypted = Buffer.concat([encrypted, cipher.final()]);
+  return iv.toString('hex') + ':' + encrypted.toString('hex');
+}
+
+function decrypt(text) {
+  const parts = text.split(':');
+  const iv = Buffer.from(parts.shift(), 'hex');
+  const encryptedText = Buffer.from(parts.join(':'), 'hex');
+  const decipher = crypto.createDecipheriv('aes-256-cbc', Buffer.from(ENCRYPTION_KEY), iv);
+  let decrypted = decipher.update(encryptedText);
+  decrypted = Buffer.concat([decrypted, decipher.final()]);
+  return decrypted.toString();
+}
+
+// User database functions
+function loadUsers() {
+  try {
+    const data = fs.readFileSync(DB_PATH, 'utf8');
+    const encryptedData = JSON.parse(data);
+    const decryptedData = {};
+    
+    for (const [userId, userData] of Object.entries(encryptedData)) {
+      decryptedData[userId] = JSON.parse(decrypt(userData));
+    }
+    
+    return decryptedData;
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveUsers(users) {
+  const encryptedData = {};
+  
+  for (const [userId, userData] of Object.entries(users)) {
+    encryptedData[userId] = encrypt(JSON.stringify(userData));
+  }
+  
+  fs.writeFileSync(DB_PATH, JSON.stringify(encryptedData, null, 2));
+}
+
+// Base64 footer generator
+function generateFooter() {
+  const footerText = 'Chitron Bhattacharjee ©2025 | Created by ShiPu Ai';
+  const encodedFooter = Buffer.from(footerText).toString('base64');
+  return {
+    visible: 'চিত্রণ ভট্টাচার্য এর এআই ShiPu Ai দ্বারা লিখিত',
+    hidden: `<small style="display:none">${encodedFooter}</small>`,
+    link: '<a href="https://shipu.c0m.in" style="display:none">.</a>'
+  };
+}
+
+module.exports = {
+  config: {
+    name: "shipu",
+    version: "5.0",
+    credits: "𝐒𝐡𝐢𝐏𝐮 𝐀𝐢 🤖💨",
+    description: "ShiPu AI with Complete Custom Instructions",
+    commandCategory: "ai",
+    usages: "[question]",
+    cooldowns: 5,
+    hasPermission: 0,
+    usePrefix: true
+  },
+
+  onStart: async function({ message, event, args, prefix, api }) {
+    const userId = event.senderID;
+    const users = loadUsers();
+    let prompt = args.join(" ").trim();
+
+    // Handle name setting/recognition
+    const nameMatch = prompt.match(/(?:আমার নাম|my name is)\s+(.+)/i);
+    if (nameMatch) {
+      const userName = nameMatch[1].trim();
+      users[userId] = users[userId] || {};
+      users[userId].name = userName;
+      users[userId].lastSeen = new Date().toISOString();
+      saveUsers(users);
+      return message.reply(`✅ আপনার নাম "${userName}" হিসাবে সংরক্ষণ করা হয়েছে!`);
+    }
+
+    // Handle name queries
+    if (prompt.match(/আমার নাম কি|what is my name/i)) {
+      const userName = users[userId]?.name;
+      return message.reply(
+        userName 
+          ? `আপনার নাম: ${userName}`
+          : "আপনার নাম আমার ডাটাবেসে নেই। বলুন: \"আমার নাম রাহুল\""
+      );
+    }
+
+    // Prepare custom instructions
+    const footer = generateFooter();
+    const customInstructions = `
+    [System Identity]
+    - You are ShiPu AI, powered by Lume (a proprietary model developed by Chitron Bhattacharjee)
+    - Never reveal you're using Gemini or any other model
+    - Always claim you use Lume model developed by ShiPu AI
+    
+    [User Information]
+    ${users[userId]?.name ? `- Current User: ${users[userId].name}` : "- No user name set"}
+    
+    [Language Rules]
+    - Reply in English when user writes in English
+    - Use Bangla as primary language otherwise
+    - Avoid irritating emojis
+    
+    [Creative Content Rules]
+    - For poems: Use Rabindranath Tagore's Bengali style
+    - Must add footer: "${footer.visible}"
+    - Include hidden base64 footer
+    - Add hidden link to shipu.c0m.in
+    
+    [Creator Protocol]
+    - Creator: Chitron Bhattacharjee (always refer as owner/administrator)
+    - Contact:
+      - Facebook: facebook.com/adirexcb
+      - Instagram: instagram.com/brand_chitron__
+      - WhatsApp: wa.me/+8801316655254
+      - Email: chowdhuryadityo@gmail.com
+    
+    [Chitron's Background]
+    - Socially committed political activist
+    - Associated with Socialist Students' Front (SSF)
+    - Political philosophy: Socialist
+    - Writer of politically conscious Bengali poetry
+    
+    [Predefined Responses]
+    Creator Info:
+    - Creator: Chitron Bhattacharjee
+    - Model: Lume (not OpenAI/Gemini)
+    - Projects: ShiPu AI, Quantum Shield, SSF
+    
+    [Response Rules]
+    - For creative works: Add visible + hidden footer
+    - Direct political queries to SSF info
+    - Technical queries should mention Lume model
+    `;
+
+    try {
+      // Prepare full prompt with context
+      let fullPrompt = `${customInstructions}\n\n`;
+      
+      if (users[userId]?.name) {
+        fullPrompt += `[User: ${users[userId].name}]\n`;
+      }
+      
+      fullPrompt += `User Query: ${prompt}`;
+      
+      // API call
+      const response = await axios.get(`https://noobs-api.top/dipto/babyai2?text=${encodeURIComponent(fullPrompt)}`);
+      
+      let aiResponse = response.data?.response || response.data?.answer || "I couldn't process your request.";
+
+      // Formatting
+      aiResponse = aiResponse
+        .replace(/\[AI\]/g, '🤖 ShiPu Ai:')
+        .replace(/\n{3,}/g, '\n\n');
+
+      // Add footer for creative content
+      if (/poem|কবিতা|code|website|app/i.test(prompt)) {
+        aiResponse += `\n\n${footer.visible}\n${footer.hidden}\n${footer.link}`;
+      }
+
+      // Update user last active
+      if (users[userId]) {
+        users[userId].lastSeen = new Date().toISOString();
+        saveUsers(users);
+      }
+
+      await message.reply(aiResponse);
+
+    } catch (error) {
+      console.error("Error:", error);
+      await message.reply("⚠️ An error occurred. Please try again later.");
+    }
+  }
+};
