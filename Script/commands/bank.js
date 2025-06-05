@@ -5,7 +5,7 @@ module.exports.config = {
     name: "bank",
     version: "3.0.0",
     hasPermssion: 0,
-    credits: "Your Name",
+    credits: "Chitron Bhattacharjee",
     description: "ShiPu Bank PLC - Advanced Banking System",
     commandCategory: "economy",
     usages: "[-r/-d/-b/-t/-w] [amount] [@user]",
