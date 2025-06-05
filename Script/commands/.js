@@ -1,173 +1,55 @@
 const axios = require("axios");
-const fs = require("fs");
-const request = require("request");
-
-const link = [
- "https://i.imgur.com/P7ur5Ec.jpeg",
-
-];
 
 module.exports.config = {
- name: "🥺",
- version: "1.0.0",
- hasPermssion: 0,
- credits: "Islamick Chat",
- description: "auto reply to salam",
- commandCategory: "noprefix",
- usages: "🥺",
- cooldowns: 5,
- dependencies: {
- "request":"",
- "fs-extra":"",
- "axios":""
- }
+  name: "emojiReply",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "Islamick Chat",
+  description: "Auto reply to any emoji",
+  commandCategory: "noprefix",
+  usages: "[any emoji]",
+  cooldowns: 5,
+  dependencies: {
+    "axios": ""
+  }
 };
 
-module.exports.handleEvent = async ({ api, event, Threads }) => {
- const content = event.body ? event.body : '';
- const body = content.toLowerCase();
- if (body.startsWith("🥺")) {
- const rahad = [
- "😌",
- "🙂",
- "😚🥰",
- "🙃🤌",
- "☺️💝",
- "😎🔥",
- "😭💀",
- "😍💫",
- "😏🍷",
- "🥺👉👈",
- "🤯💥",
- "💃🕺",
- "😇🌸",
- "😤💪",
- "🫣👀",
- "🥶🧊",
- "😈👿",
- "🤡🎪",
- "🤑💰",
- "🤔💭",
- "😴💤",
- "🤧🤒",
- "🤓📚",
- "🤠🐎",
- "🤫🔐",
- "😵‍💫🌀",
- "😬😳",
- "😻😽",
- "👻🎃",
- "🫶💖",
- "🫂❤️",
- "🫨😱",
- "🧠💡",
- "🫥🫤",
- "👀➡️",
- "🤝✊",
- "🤞🍀",
- "🫡🇧🇩",
- "🍕🥤",
- "🍫☕",
- "🍉🍓",
- "🌈✨",
- "🌙🪐",
- "🌟🌌",
- "☁️🌧️",
- "🔥🧨",
- "💣💥",
- "🧸🎁",
- "🎈🎉",
- "📸📷",
- "💻🖥️",
- "📱📶",
- "🧃🥪",
- "🍟🍔",
- "🎮🕹️",
- "🎵🎧",
- "📖📝",
- "✈️🌍",
- "🛌🛏️",
- "🏞️🌄",
- "🏝️🌅",
- "🧘‍♂️🕊️",
- "🐶🐾",
- "🐱🐈",
- "🐼🐻",
- "🦄🐴",
- "🐸🌿",
- "🐧❄️",
- "🦋🌺",
- "🐝🌼",
- "🌻🌞",
- "🪴🌱",
- "🧿🔮",
- "💎👑",
- "💄👠",
- "🕶️🧥",
- "📦🚚",
- "🏡🏠",
- "🏫📚",
- "🛍️🛒",
- "🎁🎀",
- "💌📬",
- "📅🕓",
- "🧭🗺️",
- "⚽🏆",
- "🏀⛹️",
- "🎯🎳",
- "🏓🥇",
- "🥋🥊",
- "🏸⛳",
- "🛹🛼",
- "🚴🚵",
- "🚗🛣️",
- "🛶🗻",
- "⛺🔥",
- "🌋🗿",
- "🔋⚡",
- "🔑🚪",
- "🔒🔓",
- "🧲🛠️",
- "⚙️🔧",
- "💡🔦",
- "🧯🚒",
- "🚓🚨",
- "📡🛰️",
- "📺🎞️"
-
- ];
- const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
-
- const callback = () => api.sendMessage({
- body: `${rahad2}`,
- attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
- }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
-
- const requestStream = request(encodeURI(link[Math.floor(Math.random() * link.length)]));
- requestStream.pipe(fs.createWriteStream(__dirname + "/cache/2024.mp4")).on("close", () => callback());
- return requestStream;
- }
-};
-
-module.exports.languages = {
- "vi": {
- "on": "Dùng sai cách rồi lêu lêu",
- "off": "sv ngu, đã bão dùng sai cách",
- "successText": `🧠`,
- },
- "en": {
- "on": "on",
- "off": "off",
- "successText": "success!",
- }
+module.exports.handleEvent = async ({ api, event }) => {
+  const { body } = event;
+  
+  // ইমোজি ডিটেক্ট করার রেগুলার এক্সপ্রেশন
+  const emojiRegex = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu;
+  
+  if (emojiRegex.test(body)) {
+    const replies = [
+      "😌", "🙂", "😚🥰", "🙃🤌", "☺️💝", "😎🔥", "😭💀", "😍💫", "😏🍷", "🥺👉👈",
+      "🤯💥", "💃🕺", "😇🌸", "😤💪", "🫣👀", "🥶🧊", "😈👿", "🤡🎪", "🤑💰", "🤔💭",
+      "😴💤", "🤧🤒", "🤓📚", "🤠🐎", "🤫🔐", "😵‍💫🌀", "😬😳", "😻😽", "👻🎃", "🫶💖",
+      "🫂❤️", "🫨😱", "🧠💡", "🫥🫤", "👀➡️", "🤝✊", "🤞🍀", "🫡🇧🇩", "🍕🥤", "🍫☕",
+      "🍉🍓", "🌈✨", "🌙🪐", "🌟🌌", "☁️🌧️", "🔥🧨", "💣💥", "🧸🎁", "🎈🎉", "📸📷",
+      "💻🖥️", "📱📶", "🧃🥪", "🍟🍔", "🎮🕹️", "🎵🎧", "📖📝", "✈️🌍", "🛌🛏️", "🏞️🌄",
+      "🏝️🌅", "🧘‍♂️🕊️", "🐶🐾", "🐱🐈", "🐼🐻", "🦄🐴", "🐸🌿", "🐧❄️", "🦋🌺", "🐝🌼",
+      "🌻🌞", "🪴🌱", "🧿🔮", "💎👑", "💄👠", "🕶️🧥", "📦🚚", "🏡🏠", "🏫📚", "🛍️🛒",
+      "🎁🎀", "💌📬", "📅🕓", "🧭🗺️", "⚽🏆", "🏀⛹️", "🎯🎳", "🏓🥇", "🥋🥊", "🏸⛳",
+      "🛹🛼", "🚴🚵", "🚗🛣️", "🛶🗻", "⛺🔥", "🌋🗿", "🔋⚡", "🔑🚪", "🔒🔓", "🧲🛠️",
+      "⚙️🔧", "💡🔦", "🧯🚒", "🚓🚨", "📡🛰️", "📺🎞️"
+    ];
+    
+    const randomReply = replies[Math.floor(Math.random() * replies.length)];
+    api.sendMessage({ body: randomReply }, event.threadID, event.messageID);
+  }
 };
 
 module.exports.run = async ({ api, event, Threads, getText }) => {
- const { threadID, messageID } = event;
- let data = (await Threads.getData(threadID)).data;
- if (typeof data["🥺"] === "undefined" || data["🥺"]) data["🥺"] = false;
- else data["🥺"] = true;
- await Threads.setData(threadID, { data });
- global.data.threadData.set(threadID, data);
- api.sendMessage(`${(data["🥺"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
+  // অন/অফ সিস্টেম (যদি দরকার হয়)
+  const { threadID, messageID } = event;
+  let data = (await Threads.getData(threadID)).data;
+  if (typeof data["emojiReply"] === "undefined" || data["emojiReply"]) {
+    data["emojiReply"] = false;
+  } else {
+    data["emojiReply"] = true;
+  }
+  await Threads.setData(threadID, { data });
+  global.data.threadData.set(threadID, data);
+  api.sendMessage(`Emoji reply is now ${data["emojiReply"] ? "OFF" : "ON"}`, threadID, messageID);
 };
