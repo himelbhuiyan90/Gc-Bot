@@ -1,3 +1,8 @@
+const axios = require('axios'); // axios সঠিকভাবে ইম্পোর্ট করুন
+
+// Store user statistics globally
+const userStats = new Map();
+
 module.exports.config = {
     name: "mcq",
     version: "5.0.0",
@@ -8,12 +13,8 @@ module.exports.config = {
     commandCategory: "Education",
     cooldowns: 5,
     dependencies: { "axios": "" },
-    prefix: true, // This enables global prefix support
-    usage: "{prefix}mcq [easy/medium/hard]"
+    usage: "[easy/medium/hard]"
 };
-
-// Store user statistics globally
-const userStats = new Map();
 
 module.exports.handleReply = async ({ api, event, handleReply, Currencies }) => {
     if (event.senderID !== handleReply.author) return;
@@ -138,7 +139,7 @@ module.exports.run = async ({ api, event, args, Currencies }) => {
 
         const { data } = await axios.get(`https://opentdb.com/api.php?amount=1&type=multiple&difficulty=${difficulty}`);
         
-        if (!data.results?.length)) {
+        if (!data.results || !data.results.length) {
             return api.sendMessage("🔴 Quiz API is currently unavailable. Try again later!", event.threadID);
         }
 
@@ -171,7 +172,7 @@ module.exports.run = async ({ api, event, args, Currencies }) => {
         });
 
     } catch (error) {
-        console.error(error);
+        console.error("Quiz Error:", error);
         api.sendMessage("❌ Failed to load quiz question. Please try again!", event.threadID);
     }
 };
