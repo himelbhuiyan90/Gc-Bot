@@ -30,10 +30,9 @@ module.exports.run = async function({ api, event }) {
 ┃ 🏫 𝐄𝐝𝐮	: 𝐈𝐧𝐭𝐞𝐫 𝟏𝐬𝐭 𝐘𝐞𝐚𝐫
 ┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬	: 𝐌𝐲𝐦𝐞𝐧𝐬𝐢𝐧𝐠𝐡, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 🎭 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩	: https://wa.me/+8801316655254
-┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦	: https://t.me/brandchitron
-┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤	: https://www.facebook.com/adirexcb
-┃ 🌎 𝐖𝐞𝐛𝐬𝐢𝐭𝐞		: http://shipu.c0m.in/
+┃ 🎭 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩	: me/+8801972224417
+┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦	: me/+8801972224417
+┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤	: https://www.facebook.com/ntojkuangsyamrmyi.721185
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
 ┗━━━━━━━━━━━━━━━━━━━━━┛
@@ -41,7 +40,7 @@ module.exports.run = async function({ api, event }) {
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"));
   
-    return request(encodeURI(`https://graph.facebook.com/100000478146113/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
+    return request(encodeURI(`https://graph.facebook.com/61576900541112/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
         .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
         .on('close', () => callback());
 };
