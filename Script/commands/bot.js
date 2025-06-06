@@ -91,20 +91,20 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Nusifa Jahan") || (event.body.toLowerCase() == "@Nusaifa Jahan ")) {
-     return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস Chitron Bhattacharya এর বউ এর ID😠🥰⛏️", threadID);
+   if ((event.body.toLowerCase() == "@〲Nʌtoĸɓʌj 卝 ঈ্ঁশা্ঁ一ཐི༏ཋྀ࿐") || (event.body.toLowerCase() == "@〲Nʌtoĸɓʌj 卝 ঈ্ঁশা্ঁ一ཐི༏ཋྀ࿐")) {
+     return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর ID😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Nusaifa") || (event.body.toLowerCase() == "Nusaifa")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Chitron Bhattacharya এর বউ এর নাম..!😠🥰⛏️", threadID);
+  if ((event.body.toLowerCase() == "Isha") || (event.body.toLowerCase() == "Isha")) {
+     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
   
-  if ((event.body.toLowerCase() == "Nusu") || (event.body.toLowerCase() == "nusu")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Chitron Bhattacharya এর বউ এর নাম..!😠🥰⛏️", threadID);
+  if ((event.body.toLowerCase() == "ঈসা") || (event.body.toLowerCase() == "ঈসা")) {
+     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Nusaifa") || (event.body.toLowerCase() == "nusaifa")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Chitron Bhattacharya এর বউ এর নাম..!😠🥰⛏️", threadID);
+  if ((event.body.toLowerCase() == "ইসা") || (event.body.toLowerCase() == "ঈশা")) {
+     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
   if ((event.body.toLowerCase() == "@ཧྱེ一ᏫᎰᎰᏞᏆᏁᎬ ꨄ মহা'রাজ一ཧྱེ ") || (event.body.toLowerCase() == "Himel")) {
