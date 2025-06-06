@@ -56,22 +56,22 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("~ তোমার বাল উঠে নাই নাকি তোমার?? 🤖", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Chitron") || (event.body.toLowerCase() == "Chitron") || (event.body.toLowerCase() == "@Chitron Bhattacharya") || (event.body.toLowerCase() == "ইনি হলেন চিত্রণ, আমার ক্রিয়েটর!💝")) {
+  if ((event.body.toLowerCase() == "Himel") || (event.body.toLowerCase() == "Himel") || (event.body.toLowerCase() == "@〲Nʌtoĸɓʌj 卝 স্যা্ঁ'র্ঁ一ཐི༏ཋྀ࿐") || (event.body.toLowerCase() == "ইনি হলেন চিত্রণ, আমার ক্রিয়েটর!💝")) {
      return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
 
        
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Chitron Bhattacharjee ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Adi.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/adirexcb\nতার সাথে যোগা যোগ করতে WhatsApp :- +8801316655254", threadID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Himel Bhuiyan  ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Himel.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :-https://www.facebook.com/ntojkuangsyamrmyi.721185\nতার সাথে যোগা যোগ করতে WhatsApp :- +8801972224417", threadID);
    };
 
    if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "admin ke ")) {
-     return api.sendMessage("My Creator is: Chitron Bhattacharya ❤️ হাই, আমি একটি ROBOT  আামার বস Chitron Bhattacharya আমাকে বানিয়েছেন আপনাদের কে হাসানোর জন্য আমি চাই আপনারা সব সময় হাসি খুশি থাকেন", threadID);
+     return api.sendMessage("My Creator is: Himel Bhuiyan ❤️ হাই, আমি একটি ROBOT  আামার বস Himel Bhuiyan আমাকে বানিয়েছেন আপনাদের কে হাসানোর জন্য আমি চাই আপনারা সব সময় হাসি খুশি থাকেন", threadID);
    };
 
   if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "boter admin")) {
-     return api.sendMessage("He is Chitron Bhattacharya❤️ তাকে সবাই আদি নামে চিনে🤙", threadID);
+     return api.sendMessage("He is Himel Bhuiyan ❤️ তাকে সবাই হিমেল নামে চিনে🤙", threadID);
    };
 
    if ((event.body.toLowerCase() == "ai") || (event.body.toLowerCase() == "Ai")) {
@@ -87,7 +87,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️- ওয়ালাইকুমুস-সালাম-!!🖤", threadID);
    };
 
-   if ((event.body.toLowerCase() == "sala ami tor boss") || (event.body.toLowerCase() == "ami adi") || (event.body.toLowerCase() == "chup sala ami Chitron Bhattacharya") || (event.body.toLowerCase() == "madari")) {
+   if ((event.body.toLowerCase() == "sala ami tor boss") || (event.body.toLowerCase() == "ami himel") || (event.body.toLowerCase() == "chup sala ami Chitron Bhattacharya") || (event.body.toLowerCase() == "madari")) {
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
@@ -107,8 +107,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Chitron Bhattacharya এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "@adi ") || (event.body.toLowerCase() == "Adi")) {
-     return api.sendMessage("🥰-আদি-🌺 আমার বস চিত্রণ'র ডাকনাম, লুচ্ছি বেডি'রা দূরে থাক😠🥰⛏️", threadID);
+  if ((event.body.toLowerCase() == "@ཧྱེ一ᏫᎰᎰᏞᏆᏁᎬ ꨄ মহা'রাজ一ཧྱེ ") || (event.body.toLowerCase() == "Himel")) {
+     return api.sendMessage("🥰-হিমেল🌺 আমার বস হিমেল'র ডাকনাম, লুচ্ছি বেডি'রা দূরে থাক😠🥰⛏️", threadID);
    };
 
    if ((event.body.toLowerCase() == "KISS ME") || (event.body.toLowerCase() == "kiss me")) {
