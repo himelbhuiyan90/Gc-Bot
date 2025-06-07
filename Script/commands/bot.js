@@ -95,11 +95,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর ID😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Isha") || (event.body.toLowerCase() == "Isha")) {
+  if ((event.body.toLowerCase() == "Esha") || (event.body.toLowerCase() == "Esha")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
   
-  if ((event.body.toLowerCase() == "ঈসা") || (event.body.toLowerCase() == "ঈসা")) {
+  if ((event.body.toLowerCase() == "ঈশা") || (event.body.toLowerCase() == "ঈশা")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Himel Bhuiyan এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
